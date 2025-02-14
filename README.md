@@ -1,5 +1,5 @@
 # Cyclistic Bike-share Analysis Report 
-![](Intro.jpeg)
+![](intro.png)
 
 ## Introduction
 
