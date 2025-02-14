@@ -1,5 +1,6 @@
 # Cyclistic Bike-share Analysis Report 
-![](intro.jpeg)
+![](Intro.jpeg)
+
 ## Introduction
 
 This capstone project, completed as part of the Google Data Analytics Professional Certificate, analyzes Cyclistic bike-share data to identify trends in rider behavior and differences between member and casual riders.  The goal is to provide data-driven recommendations to Cyclistic for converting casual riders into members.  The analysis followed the structured Case Study Roadmap from the course, which outlines six key data analysis processes which are;
@@ -59,6 +60,8 @@ This phase is dedicated to data sourcing, storage and credibility check. The cas
 
 ### Dataset Information
 The _**Divvy_Trips_2019_Q1 dataset**_ saved in .csv format covers only the first three months of 2019 (January-March), which presents a limitation to the insights derived from this analysis.
+
+#### Original Dataset
 ![](original_data.png)
 
 ### Data Credibility
@@ -96,11 +99,14 @@ The following data manipulations were performed to prepare the dataset for analy
 - Determined the longest trip duration
 - Identified the most frequent day of the week for rides using the **'day_of_week'** column."
 - Created a pivot table to quickly calculate and visualize the data. 
-![Cleaned Dataset](cleaned_data.png)
+
+#### Cleaned Dataset
+![](cleaned_data.png)
 
 ## Analyze & Share
 With the data now stored appropriately and ready for analysis, I uploaded it to SQL (BigQuery) and Tableau, and began to find answers to the questions in the ask phase in order to address the key business question **"How do Customers and Subscribers use bikes differently?"**  These answers were showcased through compelling visuals so as to effectively communicate key findings in a clear and accessible manner.
 
+#### Dashboard 1
 ![](dashboard_1.png)
 ### 1. Bike Usage Pattern and Trip Duration
 - In total, subscribers took way more trips (341,906) than customers (23,163). However, customers were observed to have taken way longer trips averagely 3716 seconds, than subscribers whose trips average a duration of just 833 seconds.
@@ -113,6 +119,7 @@ Recall that this same day happened to be the Valentines’ Day. Although, this d
    
 - Of all three months considered for analysis (Jan, Feb and March), both user-type have similar monthly usage patterns with most trips taken in March, followed by January and then February. Note, this information is not sufficient enough to inform decision due to the limited number of months as explained above. For example, the result of the monthly preference might have been significantly influenced by the number of days in each month. 
 
+#### Dashboard 2
 ![](dashboard_2.png)
 ### 3. Station Preference: 
 While the start station Clinton & Washington Blvd accommodated most trips for subscribers, the station Streeter Dr & Grand Ave accommodated most of Customers’. 
